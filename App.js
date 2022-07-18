@@ -18,17 +18,9 @@ export default function App() {
           name =  "LoginPage"
           component = {LoginScreen} 
       />
-            <Stack.Screen
-          name = "ThirdBox"
-          component={ThirdBox}
-      />
       <Stack.Screen 
           name =  "MainScreen"
           component = {MainScreen} 
-      />
-      <Stack.Screen
-          name = "SecondBar"
-          component={SecondBox}
       />
   
     </Stack.Navigator> 
